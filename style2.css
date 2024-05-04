@@ -317,6 +317,126 @@ ol {
     }
 }
 
+.blink_a {
+    color: #ff4d94;
+    text-shadow: 0 0 20px #ff4d94;
+    animation: blinkera 10s linear alternate;
+}
+
+@keyframes blinkera {
+    0% {
+      opacity: 0
+    }
+    69% {
+      opacity: 0
+    }
+    70% {
+        opacity: 1;
+    }
+    71% {
+        opacity: 0;
+    }
+    72% {
+        opacity: 1;
+    }
+}
+
+.blink_b {
+    color: #ff4d94;
+    text-shadow: 0 0 20px #ff4d94;
+    animation: blinkerb 12s linear alternate;
+}
+
+@keyframes blinkerb {
+    0% {
+      opacity: 0
+    }
+    69% {
+      opacity: 0
+    }
+    70% {
+        opacity: 1;
+    }
+    71% {
+        opacity: 0;
+    }
+    72% {
+        opacity: 1;
+    }
+}
+
+.blink_c {
+    color: #ff4d94;
+    text-shadow: 0 0 20px #ff4d94;
+    animation: blinkerc 14s linear alternate;
+}
+
+@keyframes blinkerc {
+    0% {
+      opacity: 0
+    }
+    69% {
+      opacity: 0
+    }
+    70% {
+        opacity: 1;
+    }
+    71% {
+        opacity: 0;
+    }
+    72% {
+        opacity: 1;
+    }
+}
+
+.blink_d {
+    color: #ff4d94;
+    text-shadow: 0 0 20px #ff4d94;
+    animation: blinkerd 16s linear alternate;
+}
+
+@keyframes blinkerd {
+    0% {
+      opacity: 0
+    }
+    69% {
+      opacity: 0
+    }
+    70% {
+        opacity: 1;
+    }
+    70.5% {
+        opacity: 0;
+    }
+    71% {
+        opacity: 1;
+    }
+}
+
+.blink_all {
+    color: #ff4d94;
+    text-shadow: 0 0 20px #ff4d94;
+    animation: blinkerest 17s linear alternate;
+}
+
+@keyframes blinkerest {
+    0% {
+      opacity: 0
+    }
+    69% {
+      opacity: 0
+    }
+    70% {
+        opacity: 0;
+    }
+    71% {
+        opacity: 0;
+    }
+    72% {
+        opacity: 1;
+    }
+}
+
 /* The sidebar menu */
 .sidenav {
     height: 100%;
@@ -346,7 +466,7 @@ ol {
 }
 
 .lastblink {
-    animation: blinkere 10s linear alternate;
+    animation: blinkere 19s linear alternate;
 }
 
 @keyframes blinkere {
