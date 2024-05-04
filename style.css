@@ -316,3 +316,53 @@ ol {
         opacity: 1;
     }
 }
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Style the navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: #e65151;
+    display: block;
+}
+
+/* Change link color on hover */
+.sidenav a:hover {
+    color: #ee8787;
+}
+
+.lastblink {
+    animation: blinkere 10s linear alternate;
+}
+
+@keyframes blinkere {
+    0% {
+      opacity: 0
+    }
+    69% {
+      opacity: 0
+    }
+    70% {
+        opacity: 1;
+    }
+    71% {
+        opacity: 0;
+    }
+    72% {
+        opacity: 1;
+    }
+}
