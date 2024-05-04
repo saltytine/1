@@ -222,8 +222,97 @@ ul,
 ol {
   list-style: none;
 }
-.dickbutt {
-  width: 32px;
-  height: 32px;
-  margin-bottom: -7px;
+
+.blink_me {
+    animation: blinker 2s linear alternate;
+}
+
+@keyframes blinker {
+    0% {
+      opacity: 0
+    }
+    69% {
+      opacity: 0
+    }
+    70% {
+        opacity: 1;
+    }
+    74% {
+        opacity: 0;
+    }
+    77% {
+        opacity: 1;
+    }
+}
+
+.blink_you {
+    color: #ff4d94;
+    text-shadow: 0 0 20px #ff4d94;
+    animation: blinkery 4s linear alternate;
+}
+
+@keyframes blinkery {
+    0% {
+      opacity: 0
+    }
+    69% {
+      opacity: 0
+    }
+    70% {
+        opacity: 1;
+    }
+    73% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+}
+
+.blink_us {
+    color: #ff4d94;
+    text-shadow: 0 0 20px #ff4d94;
+    animation: blinkeru 6s linear alternate;
+}
+
+@keyframes blinkeru {
+    0% {
+      opacity: 0
+    }
+    69% {
+      opacity: 0
+    }
+    70% {
+        opacity: 1;
+    }
+    72% {
+        opacity: 0;
+    }
+    74% {
+        opacity: 1;
+    }
+}
+
+.blink_we {
+    color: #ff4d94;
+    text-shadow: 0 0 20px #ff4d94;
+    animation: blinkere 8s linear alternate;
+}
+
+@keyframes blinkere {
+    0% {
+      opacity: 0
+    }
+    69% {
+      opacity: 0
+    }
+    70% {
+        opacity: 1;
+    }
+    71% {
+        opacity: 0;
+    }
+    72% {
+        opacity: 1;
+    }
 }
