@@ -91,6 +91,10 @@ body {
   font-family : monospace;
 }
 
+p {
+   text-indent: 50px;
+}
+
 pre {
   margin: 0;
 }
