@@ -188,14 +188,14 @@ pre {
 }
 .logo-area-quote {
   font-family: 'VT323';
-  font-size: 21px;
+  font-size: 28px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .info-wrapper {
   font-family: 'VT323';
-  font-size: 15px;
+  font-size: 25px;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 10px;
@@ -463,7 +463,7 @@ ol {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     color: #e65151;
     display: block;
 }
