@@ -71,7 +71,7 @@
   font-family: 'VT323';
   font-style: normal;
   font-weight: 400;
-  src: url('/font/vt323.ttf') format('truetype');
+  src: url('./vt323.ttf') format('truetype');
 }
 
 
