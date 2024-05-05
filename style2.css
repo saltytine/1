@@ -187,14 +187,14 @@ pre {
   text-align: left;
 }
 .logo-area-quote {
-  font-family: 'leet';
+  font-family: 'VT323';
   font-size: 21px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .info-wrapper {
-  font-family: 'leet';
+  font-family: 'VT323';
   font-size: 15px;
   text-align: center;
   margin-top: 50px;
@@ -459,7 +459,7 @@ ol {
 
 /* Style the navigation menu links */
 .sidenav a {
-    font-family: 'leet';
+    font-family: 'VT323';
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-weight: bold;
