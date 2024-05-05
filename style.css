@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'leet';
+  src: url('normal.ttf') format('truetype');
+}
+
 @-webkit-keyframes acidmove {
   0%   {left:-10px; opacity: 0.3;}
   5%  {left:-5px; opacity: 0.4;}
@@ -182,12 +187,14 @@ pre {
   text-align: left;
 }
 .logo-area-quote {
+  font-family: 'leet';
   font-size: 21px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .info-wrapper {
+  font-family: 'leet';
   font-size: 15px;
   text-align: center;
   margin-top: 50px;
@@ -332,6 +339,7 @@ ol {
 
 /* Style the navigation menu links */
 .sidenav a {
+    font-family: 'leet';
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-weight: bold;
